@@ -1,0 +1,16 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "electron": "electron .",
+    "electron-react": "concurrently \"BROWSER=none npm start\" \"wait-on http://localhost:5000 && electron .\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^15.3.0",
+    "fluent-ffmpeg": "^2.1.2"
+  }
+}
