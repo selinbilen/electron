@@ -1,0 +1,30 @@
+
+{% block content %}
+<table border="1">
+{%set n = 0%}
+{% for i in range(0, data|length) %}
+    {% for key,value in data[i].items() %}
+    
+    <tr>
+        <th>
+            {{key}}
+        </th>
+        <td>
+
+            <input type="checkbox" disabled>
+
+            <!--<input type="checkbox" id=i >-->
+            
+            {{value}}
+
+        </td>
+    </tr>
+ {% endfor %}
+    
+{% endfor %}
+</table>
+<form class = "" action="contact" method="get">
+    <input type="submit" name="submit_button" value="Export">
+</form>
+{% endblock %}
+
