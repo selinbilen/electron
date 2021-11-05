@@ -1,0 +1,20 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "electron": "electron ."
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  "electron": "^15.3.0",
+  "fluent-ffmpeg": "^2.1.2"
+  }
+}
